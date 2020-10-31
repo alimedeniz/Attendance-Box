@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #e6e6e6, #f0f0f0);
+    
+}
+nav{
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    box-shadow: 0px 1px #5c5c5c;
+    color: #DADADA;
+}
+.slogan h2{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.title{
+    display: inline-block;
+    width: 30%;
+    height: 12vh;
+    line-height: 12vh;
+    text-align: center;
+    border-right: solid 2px #DADADA;
+}
+.links{
+    display: inline-block;
+    width: 69%;
+    height: 12vh;
+    line-height: 12vh;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: #DADADA;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    
+}
+.links a:hover{
+    border-bottom: solid 2px #DADADA;
+}
+.picholder{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    align-items: center;
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    border-radius: 5px;
+    box-shadow: 3px 3px #535353;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+img{
+    width: 80vw;
+    height: auto;
+}
+
+.topping{
+
+    
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    padding-bottom: 1vh;
+    
+
+}
+.topping img{
+    height: 12vh;
+    width: auto;
+}
+
+/* endre farge til den du vil, ikke svart */
+footer{
+    
+    height: auto;
+    color: #DADADA;
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    justify-content: space-around;
+    display: flex;
+    line-height: 5vh;
+    padding-bottom: 2vh;
+    
+}
+footer h2{
+    padding-top: 3vh;
+}
+.box{
+    background: linear-gradient(to left, #424242, #2b2b2b);
+    width: 30vw;
+    border-radius: 5px;
+    box-shadow: 3px 3px #535353;
+}
+.boxholder{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    color: #DADADA;
+    
+}
+.box1{
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    width: 80vw;
+    height: 40vw;
+    color: #DADADA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    box-shadow: 5px 5px #535353;
+}
+.box1holder{
+    display: flex;
+    justify-content: center;
+}
+.box1 p{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box3{
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    width: 40vw;
+    height: 20vw;
+    color: #DADADA;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px #535353;
+}
+.boxi3{
+    padding-left: 2vw;
+}
+.boxi3 li{
+    padding-left: 2vw;
+}
+.box2container{
+    height: 20vw;
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+    margin-bottom: 10vh;
+}
+.box2{
+    background: linear-gradient(to left, #424242, #2b2b2b);
+    width: 40vw;
+    height: 20vw;
+    color: #DADADA;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px #535353;
+}
+.boxi2{
+    padding-left: 2vw;
+}
+.boxi2 li{
+    padding-left: 2vw;
+}
+    
